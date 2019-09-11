@@ -606,6 +606,9 @@ section.main .content .markdown code,
 section.main .content .markdown pre {
   font-family: 'Ubuntu Mono', 'Menlo', monospace;
   font-size: 1rem;
+}
+section.main .content .markdown pre:not(.chroma) {
+  /* background color for the 3 backticks code block */
   background-color: #f7f7f7;
 }
 section.main .content .markdown code {
