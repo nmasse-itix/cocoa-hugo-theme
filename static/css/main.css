@@ -609,7 +609,7 @@ section.main .content .markdown pre {
 }
 section.main .content .markdown pre:not(.chroma) {
   /* background color for the 3 backticks code block */
-  background-color: #f7f7f7;
+  background-color: #eeeedd;
 }
 section.main .content .markdown code {
   /* enclosed by single backtick (`) */
